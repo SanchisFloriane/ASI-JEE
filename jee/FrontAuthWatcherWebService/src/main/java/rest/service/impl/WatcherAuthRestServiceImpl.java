@@ -20,9 +20,6 @@ public class WatcherAuthRestServiceImpl implements WatcherAuthRestService {
 
     private static final long serialVersionUID = 1L;
 
-    @Inject
-    private URepository userRepository;
-
     @EJB
     MessageSenderLocal sender;
 
@@ -32,18 +29,25 @@ public class WatcherAuthRestServiceImpl implements WatcherAuthRestService {
     @Override
     public String doPost(String authentication){
 
+        System.out.println("authentication : " + authentication);
         Gson gson = new Gson();
         UserModel userModel = gson.fromJson(authentication, UserModel.class);
         sender.sendMessage(userModel);
 
-        System.out.println("doPost : " + userModel.toString());
+        if(userModel != null) {
+            System.out.println("doPost : " + userModel.toString());
+        }
+        else
+        {
+            System.out.println("doPost : aucune data");
+        }
 
         UserModel receive = receiver.receiveMessage();
         JsonObject jsonToReturn = new JsonObject();
         if(receive != null) {
             jsonToReturn.addProperty("login", receive.getLogin());
-            jsonToReturn.addProperty("validAuth", receive.getValidAuth());
-            if (userModel.getRole() != null) {
+            jsonToReturn.addProperty("validAuth", true);
+            if (receive.getRole() != null) {
                 jsonToReturn.addProperty("role", receive.getRole().toString());
             } else {
                 jsonToReturn.addProperty("role", Role.NONE.toString());

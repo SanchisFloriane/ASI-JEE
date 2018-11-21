@@ -7,6 +7,7 @@ import javax.inject.Inject;
 import javax.jms.JMSConsumer;
 import javax.jms.JMSContext;
 import javax.jms.Queue;
+
 import model.UserModel;
 
 @Stateless
@@ -23,6 +24,9 @@ public class MessageReceiverSync implements MessageReceiverSyncLocal {
     public UserModel receiveMessage() {
 
         System.out.println("Message reçu");
-        return context.createConsumer(queue).receiveBody(UserModel.class, 1000);
+        JMSConsumer consumer = context.createConsumer(queue);
+        UserModel user = consumer.receiveBody(UserModel.class, 1000);
+        consumer.close();
+        return user;
     }
 }

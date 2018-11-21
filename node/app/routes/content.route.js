@@ -16,9 +16,3 @@ router.route("/contents/:id")
 var multerMiddleware = multer({ "dest": "/tmp/" });
 
 router.post("/contents", multerMiddleware.single("file"), contentController.create);
-
-// Recover the id of the request
-router.param("id", function(req, res, next, id) {
-    req.id = id;
-    next();
-});

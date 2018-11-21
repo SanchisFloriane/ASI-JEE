@@ -1,0 +1,3 @@
+ejb/MessageSenderQueue.class
+ejb/MessageSender.class
+ejb/MessageReceiverSync.class

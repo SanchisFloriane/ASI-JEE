@@ -31,7 +31,7 @@ public class URepository {
 
     public UserModel findByAuthentication(String login, String pwd) {
 
-        return (UserModel) em.createQuery("from User u where u.login = :login and u.pwd = pwd")
+        return (UserModel) em.createQuery("Select u from UserModel u where u.login = :login and u.pwd = :pwd")
                 .setParameter("login", login)
                 .setParameter("pwd", pwd)
                 .getSingleResult();
@@ -39,6 +39,6 @@ public class URepository {
 
     public List<UserModel> getAllUsers() {
 
-       return (List<UserModel>)em.createQuery("from UserModel").getResultList();
+       return (List<UserModel>)em.createQuery("Select u from UserModel u").getResultList();
     }
 }

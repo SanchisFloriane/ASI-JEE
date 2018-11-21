@@ -10,8 +10,7 @@ import java.io.Serializable;
 @Entity
 @XmlRootElement
 @Table(name = "User", uniqueConstraints = @UniqueConstraint(columnNames = "login"))
-public class UserModel implements Serializable
-{
+public class UserModel implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
@@ -36,9 +35,6 @@ public class UserModel implements Serializable
     @Column(name = "roleUser")
     @Enumerated(EnumType.STRING)
     private Role role;
-
-    @Column(name = "validAuth")
-    private Boolean validAuth;
 
     public String getLastName() {
         return lastName;
@@ -81,29 +77,22 @@ public class UserModel implements Serializable
         this.role = role;
     }
 
-    public Boolean getValidAuth() {
-        return validAuth;
-    }
-
-    public void setValidAuth(Boolean validAuth) {
-        this.validAuth = validAuth;
-    }
-
     /**
      * Constructor
      */
-    public UserModel(){
+    public UserModel() {
     }
 
 
     /**
      * Constructor
+     *
      * @param login
      * @param password
      */
-    public UserModel(String login, String password){
+    public UserModel(String login, String password) {
         this.pwd = password;
-        this.login =login;
+        this.login = login;
         this.lastName = null;
         this.surName = null;
         this.role = null;
@@ -111,26 +100,29 @@ public class UserModel implements Serializable
 
     /**
      * Constructor
+     *
      * @param login
      * @param password
      * @param role
      */
-    public UserModel(String login, String password, Role role){
+    public UserModel(String login, String password, Role role) {
         this.pwd = password;
-        this.login =login;
+        this.login = login;
         this.lastName = null;
         this.surName = null;
         this.role = role;
     }
+
     /**
      * Constructor using fields
+     *
      * @param login
      * @param pwd
      * @param lastName
      * @param surName
      * @param role
      */
-    public UserModel(String login, String pwd, String lastName, String surName, Role role){
+    public UserModel(String login, String pwd, String lastName, String surName, Role role) {
         this.pwd = pwd;
         this.login = login;
         this.lastName = lastName;

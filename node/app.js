@@ -33,8 +33,6 @@ IOController.listen(server);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(function (req, res) {
-    res.setHeader('Content-Type', 'text/plain')
-    res.write('you posted:\n')
-    res.end(JSON.stringify(req.body, null, 2))
-});
+
+var loginRoute = require("./app/routes/login.route");
+app.use(loginRoute);

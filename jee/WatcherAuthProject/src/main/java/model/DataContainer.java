@@ -17,13 +17,6 @@ public class DataContainer {
     @Inject
     URepository userRepository;
 
-    @PostConstruct
-    public void init() {
-        addUser(new UserModel("Floriane","flo", Role.ADMIN));
-        addUser(new UserModel("Flavien","flav", Role.NONE));
-        addUser(new UserModel("Basil","brasil", Role.ADMIN));
-    }
-
     public void addUser(UserModel user){
         userRepository.save(user);
     }

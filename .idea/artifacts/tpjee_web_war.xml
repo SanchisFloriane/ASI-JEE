@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tpjee-web:war">
+    <output-path>$PROJECT_DIR$/tpjee/tpjee-web/target</output-path>
+    <root id="archive" name="tpjee-web.war">
+      <element id="artifact" artifact-name="tpjee-web:war exploded" />
+    </root>
+  </artifact>
+</component>

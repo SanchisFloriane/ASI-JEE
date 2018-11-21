@@ -1,0 +1,5 @@
+{
+  "port": 8080,
+  "contentDirectory": "/home/cpe/IdeaProjects/ASI-JEE/node/content",
+  "presentationDirectory": "/home/cpe/IdeaProjects/ASI-JEE/node/presentation"
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ASI-JEE.iml" filepath="$PROJECT_DIR$/ASI-JEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp_0/tp_0-ear/tp_0-ear.iml" filepath="$PROJECT_DIR$/tp_0/tp_0-ear/tp_0-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp_0/tp_0-ejb/tp_0-ejb.iml" filepath="$PROJECT_DIR$/tp_0/tp_0-ejb/tp_0-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tp_0/tp_0-web/tp_0-web.iml" filepath="$PROJECT_DIR$/tp_0/tp_0-web/tp_0-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tpjee/tpjee-ear/tpjee-ear.iml" filepath="$PROJECT_DIR$/tpjee/tpjee-ear/tpjee-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tpjee/tpjee-ejb/tpjee-ejb.iml" filepath="$PROJECT_DIR$/tpjee/tpjee-ejb/tpjee-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tpjee/tpjee-web/tpjee-web.iml" filepath="$PROJECT_DIR$/tpjee/tpjee-web/tpjee-web.iml" />
+    </modules>
+  </component>
+</project>

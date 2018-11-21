@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="tp_0-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/tp_0/tp_0-ejb/target/tp_0-ejb</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tp_0-ejb/ejb/EJB" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/tp_0/tp_0-ejb/target/tp_0-ejb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="tp_0-ejb" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FrontAuthWatcherWebService" />
+        <module name="MiddleAuthWatcherEJB" />
+        <module name="MiddleAuthWatcherEJBClient" />
+        <module name="WatcherAuthJ2E" />
+        <module name="WatcherAuthProject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FrontAuthWatcherWebService" target="1.8" />
+      <module name="MiddleAuthWatcherEJB" target="1.8" />
+      <module name="MiddleAuthWatcherEJBClient" target="1.8" />
+      <module name="Projet" target="1.8" />
+      <module name="WatcherAuthJ2E" target="1.8" />
+      <module name="WatcherAuthProject" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

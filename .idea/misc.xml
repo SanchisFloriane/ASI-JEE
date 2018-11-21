@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="ejb" url="file://$PROJECT_DIR$/tp_0/tp_0-ejb" />
+    <file type="ejb" url="file://$PROJECT_DIR$/tpjee/tpjee-ejb" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/tp_0/tp_0-ear" />
+    <file type="javaeeApplication" url="file://$PROJECT_DIR$/tpjee/tpjee-ear" />
+    <file type="web" url="file://$PROJECT_DIR$/tp_0/tp_0-web" />
+    <file type="web" url="file://$PROJECT_DIR$/tpjee/tpjee-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/tp_0/pom.xml" />
+        <option value="$PROJECT_DIR$/tpjee/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/tp_0/pom.xml" />
+        <option value="$PROJECT_DIR$/tpjee/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

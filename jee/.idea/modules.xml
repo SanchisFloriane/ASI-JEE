@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FrontAuthWatcherWebService/FrontAuthWatcherWebService.iml" filepath="$PROJECT_DIR$/FrontAuthWatcherWebService/FrontAuthWatcherWebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiddleAuthWatcherEJB/MiddleAuthWatcherEJB.iml" filepath="$PROJECT_DIR$/MiddleAuthWatcherEJB/MiddleAuthWatcherEJB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/MiddleAuthWatcherEJBClient.iml" filepath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/MiddleAuthWatcherEJBClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projet.iml" filepath="$PROJECT_DIR$/Projet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WatcherAuthJ2E/WatcherAuthJ2E.iml" filepath="$PROJECT_DIR$/WatcherAuthJ2E/WatcherAuthJ2E.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WatcherAuthProject/WatcherAuthProject.iml" filepath="$PROJECT_DIR$/WatcherAuthProject/WatcherAuthProject.iml" />
+    </modules>
+  </component>
+</project>

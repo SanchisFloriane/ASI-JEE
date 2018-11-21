@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="tpjee-ejb:ejb">
+    <output-path>$PROJECT_DIR$/tpjee/tpjee-ejb/target</output-path>
+    <root id="archive" name="tpjee-ejb.jar">
+      <element id="artifact" artifact-name="tpjee-ejb:ejb exploded" />
+    </root>
+  </artifact>
+</component>

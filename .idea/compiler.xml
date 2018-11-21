@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tp_0-ear" />
+        <module name="tp_0-ejb" />
+        <module name="tp_0-web" />
+        <module name="tpjee-ear" />
+        <module name="tpjee-ejb" />
+        <module name="tpjee-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="tp_0" target="1.7" />
+      <module name="tp_0-ear" target="1.7" />
+      <module name="tp_0-ejb" target="1.7" />
+      <module name="tp_0-web" target="1.7" />
+      <module name="tpjee" target="1.7" />
+      <module name="tpjee-ear" target="1.7" />
+      <module name="tpjee-ejb" target="1.7" />
+      <module name="tpjee-web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,9 +1,9 @@
 'use strict';
 
 var app = require('express')();
-var io = require('socket.io');
 const CONFIG = JSON.parse(process.env.CONFIG);
-var myMap = new Map();
+let myMap = new Map();
+var ContentModel = require('../models/content.model');
 
 // Listen function
 exports.listen = (server) => {
@@ -11,41 +11,43 @@ exports.listen = (server) => {
     server.listen(CONFIG.port, function () {
         console.log("Listening on port :" + CONFIG.port);
     });
-};
 
-exports.connection = (server) => {
-
-    var io = require("socket.io")(server);
+    const io = require("socket.io")(server);
     
     io.on("connection", function (socket) {
         console.log("a user connected !");
 
-        io.emit("data_comm", {for: "everyone"});
-        console.log("emit data_comm event");
-
         socket.on("data_comm", function () {
             myMap.set(socket.id, socket);
-            console.log("socket added to the map : " + socket.id);
+            console.log("Socket added to the map : " + socket.id);
         });
 
         socket.on("slidEvent", function (msg) {
-            console.log("slidEvent received : " + msg);
-            io.emit("currentSlidEvent", null);
 
-            if (msg.CMD == "START") {
-                // TO_DO
-            } else if (msg.CMD == "PAUSE") {
-                // TO_DO
-            } else if (msg.CMD == "END") {
-                // TO_DO
-            } else if (msg.CMD == "BEGIN") {
-                // TO_DO
-            } else if (msg.CMD == "PREV") {
-                // TO_DO
-            } else if (msg.CMD == "NEXT") {
+            console.log("Event slidEvent received : " + msg);
 
+            let jsonEvent = JSON.parse(msg);
+            if (jsonEvent.CMD === ("START" || "END" || "BEGIN" || "PREV" || "NEXT")) {
+                console.log("IdSlide : " + jsonEvent.PRES_ID);
+            ContentModel.read(jsonEvent.PRES_ID, (err, data) => {
+                socket.broadcast.emit('broadcast', data);
+                console.log(data);
+            });
             }
         });
+
+        socket.on("currentSlidEvent", function () {
+            socket.broadcast.emit('currentSlidEvent', '');
+        });
+
+        socket.on('broadcast', function(data) {
+            console.log("Id socket : " + socket.id + " : with data : " + data);
+        });
+
+        socket.on('disconnect', function () {
+            console.log('The user is disconnected');
+        });
+
     });
 };
 

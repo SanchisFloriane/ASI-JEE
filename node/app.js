@@ -30,7 +30,6 @@ app.use(controllerRoute);
 
 var IOController = require("./app/controllers/io.controller");
 IOController.listen(server);
-IOController.connection(server);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

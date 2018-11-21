@@ -4,50 +4,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=7; IE=8; IE=9; IE=10; IE=11; IE=edge;" />
-    <link href="./lib/bootstrapv4/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
     <title>Admin</title>
-    <!-- Inclusion de socket.io -->
     <script src="/socket.io/socket.io.js"></script>
     <script>
+
         var socket = io();
-    </script>
-    <!-- Scripts Jquery -->
-    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <script>
+        socket.emit("data_comm", "");
+
         function start() {
-            if ($("#presId").val().length > 0) {
-                socket.emit("slidEvent", createJson("START"));
-                alert("Request START send to the server !");
+            if (document.getElementById("idSlide").value.length > 0) {
+                socket.emit("slidEvent", createJsonActionSlide("START"));
+                console.log("Action start envoyée")
             } else {
-                alert("Please enter the presentation's id !");
+                alert("Veuillez renseigner l'id d'une slide !");
             }
         };
         function pause() {
-            socket.emit("slidEvent", createJson("PAUSE"));
-            alert("Request PAUSE send to the server !");
+            socket.emit("slidEvent", createJsonActionSlide("PAUSE"));
+            alert("Action pause envoyée");
         };
         function end() {
-            socket.emit("slidEvent", createJson("END"));
-            alert("Request END send to the server !");
+            socket.emit("slidEvent", createJsonActionSlide("END"));
+            alert("Action end envoyée");
         };
         function begin() {
-            socket.emit("slidEvent", createJson("BEGIN"));
-            alert("Request BEGIN send to the server !");
+            socket.emit("slidEvent", createJsonActionSlide("BEGIN"));
+            alert("Action begin envoyée");
         };
         function prev() {
-            socket.emit("slidEvent", createJson("PREV"));
-            alert("Request PREV send to the server !");
+            socket.emit("slidEvent", createJsonActionSlide("PREV"));
+            alert("Action prev envoyée");
         };
         function next() {
-            socket.emit("slidEvent", createJson("NEXT"));
-            alert("Request NEXT send to the server !");
+            socket.emit("slidEvent", createJsonActionSlide("NEXT"));
+            alert("Action next envoyée");
         };
-        function createJson(action) {
+        function createJsonActionSlide(action) {
             let jsonString = "{";
             if (action == "START") {
                 jsonString += '"CMD":"' + action + '",';
-                jsonString += '"PRES_ID":"' + $("#presId").val() + '"';
+                jsonString += '"PRES_ID":"' + document.getElementById("idSlide").value + '"';
             } else {
                 jsonString += '"CMD":"' + action + '"';
             }
@@ -57,43 +53,18 @@
     </script>
 </head>
 <body>
-<div class="row">
-    <div class="col-xs-12 text_align_center">
-        <h1>Admin</h1>
-        <br />
+<div>
+    <h1>Admin :</h1>
+    <br/>
+    <div>
+        <h5>Entrez l'ID de la slide :</h5>
+        <input id="idSlide" type="text" placeholder="Id slide">
     </div>
-</div>
-<div class="row">
-    <div class="col-xs-12 text_align_center">
-        <h5>Plese enter the presentation's id :</h5>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <input id="presId" type="text" class="form-control" placeholder="Presentation id">
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12 text_align_center">
-        <br />
-        <h5>Please select the action to perform :</h5>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <button id="start" type="button" class="btn btn-primary btn-block" onclick="start()">START</button>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <button id="pause" type="button" class="btn btn-primary btn-block" onclick="pause()">PAUSE</button>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <button id="end" type="button" class="btn btn-primary btn-block" onclick="end()">END</button>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <button id="begin" type="button" class="btn btn-primary btn-block" onclick="begin()">BEGIN</button>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <button id="prev" type="button" class="btn btn-primary btn-block" onclick="prev()">PREV</button>
-    </div>
-    <div class="col-xs-12 col-md-4">
-        <button id="next" type="button" class="btn btn-primary btn-block" onclick="next()">NEXT</button>
-    </div>
+    <button id="btnStart" onclick="start()">START</button>
+    <button id="btnEnd" onclick="end()">END</button>
+    <button id="btnBegin" onclick="begin()">BEGIN</button>
+    <button id="btnPrev" onclick="prev()">PREV</button>
+    <button id="btnNext" onclick="next()">NEXT</button>
 </div>
 </body>
 </html>

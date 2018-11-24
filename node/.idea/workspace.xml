@@ -2,45 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e9a1709-52d4-4f33-acc6-6f0e26860c7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/login.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/login.route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/FrontAuthWatcherWebService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/FrontAuthWatcherWebService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/src/main/java/rest/service/impl/WatcherAuthRestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/src/main/java/rest/service/impl/WatcherAuthRestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService.war" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService/WEB-INF/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService/WEB-INF/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageReceiverSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageReceiverSync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/classes/ejb/MessageReceiverSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/classes/ejb/MessageReceiverSync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/FrontAuthWatcherWebService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageSenderQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageSenderQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/classes/ejb/MessageSenderQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/classes/ejb/MessageSenderQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJB/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/data/URepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/data/URepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/model/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/classes/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/classes/data/URepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/classes/data/URepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/classes/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/classes/model/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/MiddleAuthWatcherEJBClient/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E.ear" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E.ear" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/FrontAuthWatcherWebService.war" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/FrontAuthWatcherWebService.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/MiddleAuthWatcherEJB.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/MiddleAuthWatcherEJB.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/WatcherAuthProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/WatcherAuthProject.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/lib/MiddleAuthWatcherEJBClient.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/WatcherAuthJ2E/lib/MiddleAuthWatcherEJBClient.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthJ2E/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/src/main/java/model/DataContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/src/main/java/model/DataContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/WatcherAuthProject/ejb/AuthWatcherMsgDrivenEJB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/WatcherAuthProject/ejb/AuthWatcherMsgDrivenEJB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/WatcherAuthProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/WatcherAuthProject.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/WatcherAuthProject/model/DataContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/WatcherAuthProject/model/DataContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/classes/ejb/AuthWatcherMsgDrivenEJB.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/classes/ejb/AuthWatcherMsgDrivenEJB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/classes/model/DataContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/classes/model/DataContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jee/WatcherAuthProject/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes/content.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/content.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/123.meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/content/123.meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +78,14 @@
     <session id="483540848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -133,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/login.controller.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="39">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -234,7 +227,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,6 +271,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -318,17 +311,17 @@
       <workItem from="1542809327051" duration="3156000" />
       <workItem from="1542812550372" duration="1534000" />
       <workItem from="1542817090271" duration="1984000" />
+      <workItem from="1543049971262" duration="1194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15407000" />
+    <option name="totallyTimeSpent" value="16601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="25" width="1309" height="638" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26956522" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2735178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -480,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/login.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

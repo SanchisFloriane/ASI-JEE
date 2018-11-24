@@ -3,6 +3,7 @@ package ejb;
 import model.UserModel;
 
 import javax.annotation.Resource;
+import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.jms.JMSContext;
@@ -14,6 +15,7 @@ import javax.jms.Queue;
  * Session Bean implementation class MessageSenderQueue
  */
 @Stateless
+@LocalBean
 public class MessageSenderQueue implements MessageSenderQueueLocal {
 
     @Inject
@@ -24,6 +26,7 @@ public class MessageSenderQueue implements MessageSenderQueueLocal {
 
     @Override
     public void sendMessage(String message) {
+
         context.createProducer().send(queue, message);
     }
 
@@ -33,7 +36,7 @@ public class MessageSenderQueue implements MessageSenderQueueLocal {
             message.setObject(user);
             context.createProducer().send(queue, user);
         } catch (JMSException e) {
-           e.printStackTrace();
+            e.printStackTrace();
         }
     }
 }

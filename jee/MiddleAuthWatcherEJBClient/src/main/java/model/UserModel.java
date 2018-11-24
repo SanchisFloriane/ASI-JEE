@@ -68,7 +68,6 @@ public class UserModel implements Serializable {
         this.pwd = pwd;
     }
 
-    @Enumerated(EnumType.STRING)
     public Role getRole() {
         return role;
     }

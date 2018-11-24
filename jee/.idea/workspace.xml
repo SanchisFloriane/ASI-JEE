@@ -7,45 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccd219af-a995-4706-8a8f-529d8f54668a" name="Default Changelist" comment="Partie JEE terminée">
-      <change afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node/app/controllers/login.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../node/app/routes/login.route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontAuthWatcherWebService/FrontAuthWatcherWebService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FrontAuthWatcherWebService/FrontAuthWatcherWebService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontAuthWatcherWebService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FrontAuthWatcherWebService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontAuthWatcherWebService/src/main/java/rest/service/impl/WatcherAuthRestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/FrontAuthWatcherWebService/src/main/java/rest/service/impl/WatcherAuthRestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService.war" beforeDir="false" afterPath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService/WEB-INF/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/FrontAuthWatcherWebService/WEB-INF/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/classes/rest/service/impl/WatcherAuthRestServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageReceiverSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageReceiverSync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/classes/ejb/MessageReceiverSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/classes/ejb/MessageReceiverSync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/FrontAuthWatcherWebService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageSenderQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/MiddleAuthWatcherEJB/ejb/MessageSenderQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/classes/ejb/MessageSenderQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/classes/ejb/MessageSenderQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJB/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/data/URepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/data/URepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/MiddleAuthWatcherEJBClient/model/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/classes/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/classes/data/URepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/classes/data/URepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/classes/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/classes/model/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E.ear" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E.ear" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/FrontAuthWatcherWebService.war" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/FrontAuthWatcherWebService.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/MiddleAuthWatcherEJB.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/MiddleAuthWatcherEJB.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/WatcherAuthProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/WatcherAuthProject.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/lib/MiddleAuthWatcherEJBClient.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthJ2E/target/WatcherAuthJ2E/lib/MiddleAuthWatcherEJBClient.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatcherAuthJ2E/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthJ2E/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatcherAuthProject/target/WatcherAuthProject/ejb/AuthWatcherMsgDrivenEJB.class" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/target/WatcherAuthProject/ejb/AuthWatcherMsgDrivenEJB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatcherAuthProject/target/WatcherAuthProject.jar" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/target/WatcherAuthProject.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthProject/target/WatcherAuthProject/model/DataContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/target/WatcherAuthProject/model/DataContainer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WatcherAuthProject/target/classes/ejb/AuthWatcherMsgDrivenEJB.class" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/target/classes/ejb/AuthWatcherMsgDrivenEJB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WatcherAuthProject/target/classes/model/DataContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/target/classes/model/DataContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WatcherAuthProject/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/WatcherAuthProject/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../node/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../node/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node/app/routes/content.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/../node/app/routes/content.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node/content/123.meta.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node/content/123.meta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../node/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/target/" />
     <ignored path="$PROJECT_DIR$/WatcherAuthJ2E/target/" />
@@ -63,22 +55,23 @@
     <session id="2090743676">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="2" />
-          <entry key="java" value="83" />
+          <entry key="java" value="96" />
           <entry key="sql" value="3" />
           <entry key="xml" value="30" />
         </counts>
@@ -87,7 +80,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="77" />
+          <entry key="JAVA" value="90" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="3" />
           <entry key="XML" value="30" />
@@ -97,7 +90,7 @@
         <counts>
           <entry key="UserRepository" value="1" />
           <entry key="dummy" value="14" />
-          <entry key="java" value="1643" />
+          <entry key="java" value="1752" />
           <entry key="sql" value="86" />
           <entry key="txt" value="20" />
           <entry key="xml" value="127" />
@@ -105,7 +98,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1594" />
+          <entry key="JAVA" value="1703" />
           <entry key="PLAIN_TEXT" value="84" />
           <entry key="SQL" value="86" />
           <entry key="XML" value="127" />
@@ -120,14 +113,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="528">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -135,20 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FrontAuthWatcherWebService/src/main/java/rest/service/impl/WatcherAuthRestServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="588">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="76">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,19 +212,19 @@
         <option value="$PROJECT_DIR$/MiddleAuthWatcherEJB/pom.xml" />
         <option value="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/IUserRepository.java" />
         <option value="$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/IUserRepository.java" />
-        <option value="$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java" />
-        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java" />
         <option value="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/data.sql" />
         <option value="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSender.java" />
         <option value="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/UserModel.java" />
         <option value="$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/UserEntity.java" />
-        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java" />
-        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java" />
         <option value="$PROJECT_DIR$/FrontAuthWatcherWebService/pom.xml" />
         <option value="$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java" />
-        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java" />
+        <option value="$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java" />
+        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java" />
+        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java" />
         <option value="$PROJECT_DIR$/FrontAuthWatcherWebService/src/main/java/rest/service/impl/WatcherAuthRestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java" />
+        <option value="$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java" />
       </list>
     </option>
   </component>
@@ -261,6 +263,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,6 +275,57 @@
               <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
               <item name="jee" type="462c0819:PsiDirectoryNode" />
               <item name="FrontAuthWatcherWebService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jee" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontAuthWatcherWebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jee" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontAuthWatcherWebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jee" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontAuthWatcherWebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jee" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontAuthWatcherWebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jee" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontAuthWatcherWebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jee" type="462c0819:PsiDirectoryNode" />
+              <item name="FrontAuthWatcherWebService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
@@ -342,15 +396,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jee" type="462c0819:PsiDirectoryNode" />
-              <item name="MiddleAuthWatcherEJBClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ejb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Projet" type="b2602c69:ProjectViewProjectNode" />
@@ -443,7 +488,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,11 +613,12 @@
       <workItem from="1542809284235" duration="3034000" />
       <workItem from="1542812582757" duration="4417000" />
       <workItem from="1542817094166" duration="2035000" />
+      <workItem from="1543049975502" duration="2021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32108000" />
+    <option name="totallyTimeSpent" value="34129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,7 +633,7 @@
     <frame x="51" y="25" width="1309" height="638" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23241107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23636363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -601,7 +646,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32818532" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34555984" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45366797" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27799228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32818532" />
@@ -679,22 +724,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java</url>
-          <line>26</line>
+          <url>file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java</url>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java</url>
           <line>55</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java</url>
-          <line>57</line>
+          <url>file://$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java</url>
+          <line>35</line>
           <properties />
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -761,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/ejb/MessageReceiverSyncLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FrontAuthWatcherWebService/src/main/java/rest/service/WatcherAuthRestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -782,30 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="33" column="66" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/ejb/MessageSenderLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/ejb/MessageSenderQueueLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -813,16 +827,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/UserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/UserModel.java" />
     <entry file="file://$PROJECT_DIR$/FrontAuthWatcherWebService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -844,17 +849,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/ejb/MessageReceiverSyncLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
+        <state relative-caret-position="249">
           <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java">
+    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/ejb/MessageSenderLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/ejb/MessageSenderQueueLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -863,15 +899,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageSenderQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        <state relative-caret-position="226">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJB/src/main/java/ejb/MessageReceiverSync.java">
+    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/model/UserModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        <state relative-caret-position="-392">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -880,18 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FrontAuthWatcherWebService/src/main/java/rest/service/impl/WatcherAuthRestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/model/DataContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="588">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -900,8 +926,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WatcherAuthProject/src/main/java/ejb/AuthWatcherMsgDrivenEJB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="528">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MiddleAuthWatcherEJBClient/src/main/java/data/URepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

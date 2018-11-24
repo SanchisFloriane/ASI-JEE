@@ -12,10 +12,9 @@ import javax.ejb.EJB;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
+
 import com.google.gson.Gson;
 
-@Stateless
-@LocalBean
 public class WatcherAuthRestServiceImpl implements WatcherAuthRestService {
 
     private static final long serialVersionUID = 1L;
@@ -27,31 +26,27 @@ public class WatcherAuthRestServiceImpl implements WatcherAuthRestService {
     MessageReceiverSyncLocal receiver;
 
     @Override
-    public String doPost(String authentication){
+    public String doPost(String authentication) {
 
         System.out.println("authentication : " + authentication);
+
         Gson gson = new Gson();
         UserModel userModel = gson.fromJson(authentication, UserModel.class);
         sender.sendMessage(userModel);
 
-        if(userModel != null) {
+        if (userModel != null) {
             System.out.println("doPost : " + userModel.toString());
-        }
-        else
-        {
+        } else {
             System.out.println("doPost : aucune data");
         }
 
         UserModel receive = receiver.receiveMessage();
         JsonObject jsonToReturn = new JsonObject();
-        if(receive != null) {
+
+        if (receive != null) {
             jsonToReturn.addProperty("login", receive.getLogin());
             jsonToReturn.addProperty("validAuth", true);
-            if (receive.getRole() != null) {
-                jsonToReturn.addProperty("role", receive.getRole().toString());
-            } else {
-                jsonToReturn.addProperty("role", Role.NONE.toString());
-            }
+            jsonToReturn.addProperty("role", receive.getRole().toString());
         } else {
             jsonToReturn.addProperty("login", userModel.getLogin());
             jsonToReturn.addProperty("validAuth", false);

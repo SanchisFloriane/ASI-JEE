@@ -17,14 +17,10 @@ public class DataContainer {
     @Inject
     URepository userRepository;
 
-    public void addUser(UserModel user){
-        userRepository.save(user);
-    }
-
     public Role checkUser(UserModel user) {
         try {
-            UserModel u = userRepository.findByAuthentication(user.getLogin(), user.getPwd());
-            return u.getRole();
+            UserModel userModel = userRepository.findByAuthentication(user.getLogin(), user.getPwd());
+            return userModel.getRole();
         } catch (NoResultException e) {
             return Role.NONE;
         }

@@ -21,24 +21,11 @@ public class URepository {
     @PersistenceContext
     private EntityManager em;
 
-    public void save(UserModel user){
-        em.persist(user);
-    }
-
-    public UserModel findById(Long id) {
-        return em.find(UserModel.class, id);
-    }
-
     public UserModel findByAuthentication(String login, String pwd) {
 
         return (UserModel) em.createQuery("Select u from UserModel u where u.login = :login and u.pwd = :pwd")
                 .setParameter("login", login)
                 .setParameter("pwd", pwd)
                 .getSingleResult();
-    }
-
-    public List<UserModel> getAllUsers() {
-
-       return (List<UserModel>)em.createQuery("Select u from UserModel u").getResultList();
     }
 }
